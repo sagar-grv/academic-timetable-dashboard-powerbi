@@ -1,0 +1,78 @@
+{
+  "project": "Academic Timetable and Institutional Workload Dashboard",
+  "repository": "https://github.com/sagar-grv/academic-timetable-dashboard-powerbi",
+  "artifact": "dashboard/Academic_Timetable_Dashboard.pbix",
+  "file_size_bytes": 841750,
+  "sha256": "9f72cbf9bffae0b8f66ca8b9d0328da78e2ebea031c491e9f5760d967c457e10",
+  "page_count": 3,
+  "visual_container_count": 27,
+  "pages": [
+    {
+      "name": "MAIN",
+      "visual_count": 4,
+      "visual_types": {
+        "shape": 2,
+        "image": 2
+      }
+    },
+    {
+      "name": "TIMETABLE",
+      "visual_count": 13,
+      "visual_types": {
+        "slicer": 5,
+        "card": 3,
+        "textbox": 2,
+        "shape": 1,
+        "image": 1,
+        "actionButton": 1
+      }
+    },
+    {
+      "name": "ANALYSIS",
+      "visual_count": 10,
+      "visual_types": {
+        "slicer": 3,
+        "donutChart": 1,
+        "clusteredColumnChart": 1,
+        "treemap": 1,
+        "barChart": 1,
+        "table": 1,
+        "textbox": 1,
+        "actionButton": 1
+      }
+    }
+  ],
+  "verified_titles": [
+    "Department Distribution",
+    "Theory vs Practical Hours",
+    "Labs Offered",
+    "Faculty Strength per Division",
+    "Class Incharge Overview",
+    "Filter by Year",
+    "Filter by Department",
+    "Filter by School"
+  ],
+  "model_table": "MPSTME,SPTM,TEXTILE",
+  "referenced_fields": [
+    "Total Faculty Mem.",
+    "Year",
+    "Department",
+    "SEM/Div",
+    "Total Labs",
+    "Total Subject",
+    "Link",
+    "Program",
+    "SCHOOL",
+    "LR.No",
+    "Pra.(Hr, Both Batch)",
+    "Theory (Hrs)",
+    "Labs Name",
+    "Class Incharge"
+  ],
+  "data_lineage_note": "Power BI Service remote semantic model; live values and refresh may require authorised access to the original workspace and dataset.",
+  "verification_basis": [
+    "Report/Layout",
+    "Connections metadata"
+  ],
+  "privacy_note": "The PBIX contains embedded institutional images/logos and should be reviewed before public screenshots are published."
+}
